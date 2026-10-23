@@ -1,0 +1,3 @@
+/Users/gtserve/Code/chp-project/build/CMakeFiles/chp_project.dir
+/Users/gtserve/Code/chp-project/build/CMakeFiles/edit_cache.dir
+/Users/gtserve/Code/chp-project/build/CMakeFiles/rebuild_cache.dir

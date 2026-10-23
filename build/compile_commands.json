@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/gtserve/Code/chp-project/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/chp_project.dir/src/main.cpp.o -c /Users/gtserve/Code/chp-project/src/main.cpp",
+  "file": "/Users/gtserve/Code/chp-project/src/main.cpp",
+  "output": "CMakeFiles/chp_project.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/gtserve/Code/chp-project/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -o CMakeFiles/chp_project.dir/src/graph.cpp.o -c /Users/gtserve/Code/chp-project/src/graph.cpp",
+  "file": "/Users/gtserve/Code/chp-project/src/graph.cpp",
+  "output": "CMakeFiles/chp_project.dir/src/graph.cpp.o"
+}
+]
