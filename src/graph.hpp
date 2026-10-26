@@ -7,30 +7,30 @@
 using namespace std;
 
 typedef struct {
-    int i;  // index
-    int v1; // Vertex 1 (from)
-    int v2; // Vertex 2 (to)
-    int weight;
+    int64_t i;  // index
+    int64_t v1; // Vertex 1 (from)
+    int64_t v2; // Vertex 2 (to)
+    int64_t weight;
 } Edge;
 
 string edgeToString(Edge e);
 
 class Graph {
   private:
-    int V;
-    int E;
+    int64_t V;
+    int64_t E;
     vector<vector<Edge>> adj_list;
 
   public:
-    Graph(int n);
+    Graph(int64_t n);
 
     /* Getter & Setters */
-    int size() const;
-    int getNumEdges() const;
+    int64_t size() const;
+    int64_t getNumEdges() const;
 
     /* Functionality */
-    vector<Edge> getEdges(int vertex) const;
-    void addEdge(int v1, int v2, int weight);
+    const vector<Edge>& getEdges(int64_t vertex) const;
+    void addEdge(int64_t v1, int64_t v2, int64_t weight);
     string toString() const;
 };
 
