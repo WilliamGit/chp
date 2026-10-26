@@ -5,12 +5,12 @@
   - Stop when `current == v_start`.
   - Never call `getEdges(-1)`.
 
-- [ ] Store the exact predecessor edge.
+- [x] Store the exact predecessor edge.
   - Replace `vector<int> prev` with something that records the complete `Edge` or its index.
   - Reconstruct the path using those stored edges.
   - Ensure parallel edges are handled correctly.
 
-- [ ] Represent the graph as undirected.
+- [x] Represent the graph as undirected.
   - Add an adjacency entry for both `v1 -> v2` and `v2 -> v1`.
   - Give both entries the same original input-edge index.
   - Increment the graph's edge count only once per input edge.
