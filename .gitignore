@@ -1,0 +1,10 @@
+.idea
+.vscode
+
+build
+cmake-build-debug
+
+*.o
+
+wbp-solver
+out.txt
